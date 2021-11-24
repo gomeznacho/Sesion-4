@@ -1,4 +1,4 @@
-package com.example.Sesion4.controllers;
+/*package com.example.Sesion4.controllers;
 
 import com.example.Sesion4.entities.Laptop;
 import org.junit.jupiter.api.BeforeEach;
@@ -53,7 +53,7 @@ class LaptopControllerTest {
         List<Laptop> laptops = Arrays.asList(response.getBody());
         System.out.println(laptops.size());
 
-    }
+    }*/
 
    /* @Test
     void findnOneById() {
@@ -66,7 +66,7 @@ class LaptopControllerTest {
     }*/
 
 
-    @Test
+   /* @Test
     void create() {
 
         HttpHeaders headers = new HttpHeaders();
@@ -89,7 +89,7 @@ class LaptopControllerTest {
 
        assertEquals(1l, result.getId());
        assertEquals("Juarez Test", result.getMarca());
-    }
+    }*/
 /*
     @Test
     void update() {
@@ -139,7 +139,7 @@ class LaptopControllerTest {
 
     }*/
 
-    @Test
+  /*  @Test
     void deleteAll() {
         HttpHeaders headers = new HttpHeaders();     //CREAMOS EL OBJETO CABECERA
         headers.setContentType(MediaType.APPLICATION_JSON);   // Indicamos que vamos a enviar un tipo de dato json
@@ -149,4 +149,4 @@ class LaptopControllerTest {
 
         HttpEntity<String> request = new HttpEntity<String>(json,headers);  //Acceso y guardado del listado
     }
-}
+}*/
