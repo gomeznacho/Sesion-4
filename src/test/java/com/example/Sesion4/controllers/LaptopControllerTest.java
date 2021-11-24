@@ -121,7 +121,7 @@ class LaptopControllerTest {
 
     }
 */
-    @Test
+   /* @Test
     void delete() {
         int idTest = 2;
         //CREAMOS EL OBJETO CABECERA
@@ -137,7 +137,7 @@ class LaptopControllerTest {
         assertEquals(null,result2);
 
 
-    }
+    }*/
 
     @Test
     void deleteAll() {
